@@ -2,15 +2,14 @@ build: false
 
 environment:
   matrix:
-    - PYTHON: "C:\\Python35"
-      PYTHON_VERSION: "3.5"
-      PYTHON_ARCH: "64"
+    - PYTHON: "C:\\Python35-x64"
       MINICONDA: "C:\\Miniconda3"
 
-
+platform:
+  - x64
 
 init:
-  - "ECHO %PYTHON% %PYTHON_VERSION% %PYTHON_ARCH% %MINICONDA%"
+  - "ECHO %PYTHON% %MINICONDA%"
 
 install:
   - "set PATH=%MINICONDA%;%MINICONDA%\\Scripts;%PATH%"
