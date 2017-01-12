@@ -4,7 +4,7 @@ environment:
   matrix:
     - PYTHON: "C:\\Python35-x64"
       PYTHON_VERSION: "3.5"
-      MINICONDA: "C:\\Miniconda3"
+      MINICONDA: "C:\Miniconda35-x64"
 
 platform:
   - x64
