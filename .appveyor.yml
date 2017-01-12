@@ -19,7 +19,7 @@ install:
   - conda info -a
   - "conda create --yes -n env_name python=%PYTHON_VERSION% --file ci/conda_requirements.txt"
   - conda install --yes -n env_name cython
-  - source activate env_name
+  - activate env_name
   - pip install -r ci/pip_requirements.txt
   - pip install . --no-deps
 
