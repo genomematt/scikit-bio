@@ -24,4 +24,4 @@ install:
   - pip install . --no-deps
 
 test_script:
-  - "python skbio/test.py"
+  - "python setup.py test"
