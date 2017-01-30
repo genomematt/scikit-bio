@@ -24,4 +24,4 @@ install:
   - pip install . --no-deps
 
 test_script:
-  - "python setup.py test"
+  - "python setup.py nosetests"
