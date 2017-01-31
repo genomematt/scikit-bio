@@ -24,4 +24,5 @@ install:
 
 test_script:
   - "python setup.py clean --all"
+  - "python setup.py build_ext --inplace"
   - "python setup.py nosetests"
