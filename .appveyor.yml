@@ -23,4 +23,5 @@ install:
   - pip install -r ci/pip_requirements.txt
 
 test_script:
+  - "python setup.py clean --all"
   - "python setup.py nosetests"
